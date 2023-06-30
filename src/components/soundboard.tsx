@@ -60,26 +60,44 @@ function SoundBoard() {
 <div></div>
         <table>
           <tr>
-            <th>Trailer Park Boys </th>
+            <th>Random </th>
           </tr>
           <tr>
             <td>
               <SoundWithName
-                  soundname={"Not Doing Well In Thinkin Department"}
+                  soundname={"Make it fast and sexy"}
                   filepath={
-                    "src/assets/trailer park boys/notDoingWellInThinkinDepartment.mp3"
+                    "src/assets/Misc/MakeItFastAndSexy.m4a"
                   }
               />
 
             </td>
             <td><SoundWithName
-                soundname={"Not Doing Well In Thinkin Department"}
+                soundname={"The French are assholes"}
                 filepath={
-                  "src/assets/trailer park boys/notDoingWellInThinkinDepartment.mp3"
+                  "src/assets/Misc/TheFrenchAreAssholes.m4a"
                 }
             />
               </td>
           </tr>
+            <tr>
+                <td>
+                    <SoundWithName
+                        soundname={"American Trying to get out"}
+                        filepath={
+                            "src/assets/Misc/AmericanTryingToGetOut.m4a"
+                        }
+                    />
+
+                </td>
+                <td><SoundWithName
+                    soundname={"Youre an inanimate fucking object"}
+                    filepath={
+                        "src/assets/In Bruges/YoureAnInanimateObject.m4a"
+                    }
+                />
+                </td>
+            </tr>
         </table>
       </div>
     </>
